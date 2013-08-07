@@ -32,6 +32,8 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'rspec-rails'
   gem 'sham_rack'
+  gem 'guard-rspec'
+
 end
 
 group :test do
@@ -42,6 +44,7 @@ group :test do
   gem 'shoulda-matchers'
   gem 'simplecov', require: false
   gem 'timecop'
+
 end
 
 group :staging, :production do
